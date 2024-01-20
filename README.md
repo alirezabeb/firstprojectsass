@@ -13,8 +13,6 @@
 
 - Technologies Used - Html , css , sass
 
-- Hooks Used : useState 
-
 - Role - Frontend
 
 - How to reach me : with my [instagram](instagram.com/alireza_behweb/) and [linkedin](https://www.linkedin.com/in/alireza-behbahanian-90b980160/)
