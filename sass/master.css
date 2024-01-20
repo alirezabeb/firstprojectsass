@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+main > video {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  scale: 1.2;
+}
+main > footer > .row {
+  height: 150px;
+  margin-top: 390px;
+  padding-left: 120px;
+}
+main > footer > .row > div {
+  padding: 45px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+main > footer > .row > div > a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+}
+main > footer > .row > figure {
+  align-items: center;
+  justify-content: center;
+}
+main > footer > .row > figure img {
+  width: 100px;
+  height: 100px;
+  border-radius: 80px;
+  margin-top: 25px;
+}
+main > .row header {
+  width: 100%;
+  height: 100px;
+}
+main > .row header > .row {
+  height: 100%;
+}
+main > .row header > .row > div {
+  width: 100%;
+}
+main > .row header > .row > div:first-of-type {
+  height: 30%;
+  background-color: rgba(242, 246, 246, 0.694);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main > .row header > .row > div:last-of-type {
+  background-color: rgba(242, 246, 246, 0.694);
+  padding: 0 50px;
+  height: 70%;
+}
+main > .row header > .row > div:last-of-type > .row {
+  height: 100%;
+}
+main > .row header > .row > div:last-of-type > .row * {
+  height: 100%;
+}
+main > .row header > .row > div:last-of-type > .row > figure {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+}
+main > .row header > .row > div:last-of-type > .row > nav {
+  width: 60%;
+}
+main > .row header > .row > div:last-of-type > .row > nav > ul {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+main > .row header > .row > div:last-of-type > .row > nav > ul > li {
+  list-style-type: none;
+}
+main > .row header > .row > div:last-of-type > .row > nav > ul > li > a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 0 10px;
+  color: black;
+}
+main > .row header > .row > div:last-of-type > .row > nav > ul > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.791);
+  color: white;
+}
+main > .row header > .row > div:last-of-type > .row > div {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+main > .row header > .row > div:last-of-type > .row > div > a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+}/*# sourceMappingURL=master.css.map */
